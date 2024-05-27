@@ -213,6 +213,9 @@ if __name__ == '__main__':
                     save_dir = 'EADRL_result/DEA-fitness-sharing'
 
                 # -------进化----------
+                # 判断是否存在文件夹EADRL_result，如果不存在则创建
+                if not os.path.isdir(save_dir):
+                    os.mkdir(save_dir)
                 folder_name = ''.join(["N=" + str(problem.Dim - 1) + "Tmax=" + str(problem.Capacity)])
                 if os.path.isdir(save_dir):
                     if os.path.isdir(os.path.join(save_dir, folder_name)):
