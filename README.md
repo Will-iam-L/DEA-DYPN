@@ -26,10 +26,15 @@ Run by calling ```python DEA-DYPN-main.py```
 # To Conduct the ablation experiments
 
 Set the following parameters in the ```DEA-DYPN-main.py``` file:
+
 Do not use the greedy initialization: ablation_value_list = [1] 
+
 Do not use the restart mechanism: ablation_value_list = [2]
+
 Do not use the fitness sharing selection: ablation_value_list = [3]
+
 Do not use all these mechanisms: ablation_value_list = [1, 2, 3]
+
 Use all these mechanisms: ablation_value_list = [None]
 
 Then run by calling ```python DEA-DYPN-main.py```
