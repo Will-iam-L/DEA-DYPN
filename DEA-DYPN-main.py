@@ -182,7 +182,7 @@ if __name__ == '__main__':
             print(args.checkpoint)
             time_list = []
             reward_list = []
-            for run_times in range(1):
+            for run_times in range(10):
                 case_index = 0
                 print('====================N:', N, '===tmax:', Capacity, '=======================')
                 problem = MyProblem(M, args, N, Capacity, case_index)  # Instantiate MyProblem class
