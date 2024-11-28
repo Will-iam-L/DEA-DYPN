@@ -1,6 +1,7 @@
 # DEA-DYPN
 
-Implementation of: "Solving Orienteering Problems by Hybridizing Evolutionary Algorithm and Deep Reinforcement Learning."
+Feel free to cite this work: 
+Wang, R., Liu, W., Li, K., Zhang, T., Wang, L., & Xu, X. (2024). Solving Orienteering Problems by Hybridizing Evolutionary Algorithm and Deep Reinforcement Learning. IEEE Transactions on Artificial Intelligence.
 
 ## Requirements:
 
